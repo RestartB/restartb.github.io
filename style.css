@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-@media only screen and (max-width: 750px) {
-    body {
-        padding: 25px;
-    }
-}
-
 :root {
 	background: linear-gradient(-45deg, #11111b, #1e1e2e, #45475a);
 	background-size: 400% 400%;
@@ -34,20 +28,20 @@
     }
 }
 
-:root {
-    background-color: #1e1e2e;
-}
-
 body {
     color: #cdd6f4;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 5px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     animation: 0.5s pageLoadFade;
+}
+
+main {
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .pfp {
