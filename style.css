@@ -90,6 +90,7 @@ p {
     padding: 2px;
     transition: transform .4s;
     transition-timing-function: ease;
+    image-rendering: pixelated;
 }
 
 .buttons img:hover {
